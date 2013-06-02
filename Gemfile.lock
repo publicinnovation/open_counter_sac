@@ -104,8 +104,8 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  jquery-rails
-  pg
+  jquery-rails (~> 3.0.0)
+  pg (~> 0.15.1)
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
-  uglifier (>= 1.0.3)
+  uglifier (~> 2.1.1)
