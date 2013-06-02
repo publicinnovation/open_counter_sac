@@ -6,6 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg', '~> 0.15.1'
+gem 'thin', '~> 1.5.1'
 
 group :test do
   gem 'factory_girl_rails', '~> 4.2.1'
@@ -16,6 +17,11 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.13.2'
   gem 'guard-rspec', '~> 3.0.0'
   gem 'capybara', '~> 2.1.0'
+end
+
+group :development do
+  gem 'better_errors', '~> 0.9.0'
+  gem 'binding_of_caller', '~> 0.7.1'
 end
 
 # Gems used only for assets and not required
