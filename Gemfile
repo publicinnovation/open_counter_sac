@@ -14,6 +14,8 @@ end
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.13.2'
+  gem 'guard-rspec', '~> 3.0.0'
+  gem 'capybara', '~> 2.1.0'
 end
 
 # Gems used only for assets and not required
