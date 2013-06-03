@@ -21,7 +21,21 @@
   </head>
 
   <body>
-
+    <nav class="top-bar">
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left"><li class="divider"></li>
+          <li><%= link_to "The Idea", page_path("idea") %></li><li class="divider"></li>
+          <li><%= link_to "The Team", page_path("team") %></li><li class="divider"></li>
+          <li><%= link_to "The Business", page_path("business") %></li><li class="divider"></li>
+          <li><%= link_to "Building", page_path("building") %></li><li class="divider"></li>
+          <li><%= link_to "Taxes & Fees", page_path("fees") %></li><li class="divider"></li>
+          <li><%= link_to "Licenses", page_path("licenses") %></li><li class="divider"></li>
+          <li><%= link_to "Summary", page_path("summary") %></li><li class="divider"></li><li>
+        </ul>
+      </section>
+    </nav>
+    
     <%= yield %>
 
     
