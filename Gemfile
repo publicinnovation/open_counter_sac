@@ -8,6 +8,8 @@ gem 'rails', '3.2.13'
 gem 'pg', '~> 0.15.1'
 gem 'thin', '~> 1.5.1'
 
+gem 'high_voltage', '~> 1.2.2'
+
 group :test do
   gem 'factory_girl_rails', '~> 4.2.1'
   gem 'shoulda-matchers', '~> 2.1.0'
