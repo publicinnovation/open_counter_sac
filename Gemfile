@@ -11,6 +11,7 @@ gem 'thin', '~> 1.5.1'
 gem 'high_voltage', '~> 1.2.2'
 
 gem 'devise', '~> 2.2.4'
+gem 'cancan', '~> 1.6.10'
 
 group :test do
   gem 'factory_girl_rails', '~> 4.2.1'
