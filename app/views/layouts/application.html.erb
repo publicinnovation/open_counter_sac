@@ -36,6 +36,8 @@
       </section>
     </nav>
 
+    <%= render :partial => 'layouts/flash', :locals => {:flash => flash} %>
+
     <div class="large-12 columns">
       <%= yield %>
     </div>
