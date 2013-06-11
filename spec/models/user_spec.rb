@@ -13,6 +13,10 @@ describe User do
     it {should validate_presence_of :last_name}
   end
 
+  context 'associations' do
+    it {should have_one :address}
+  end
+
   context 'name' do
     let(:user) {FactoryGirl.create(:user)}
 
