@@ -12,6 +12,7 @@ class User < ActiveRecord::Base
   validates :last_name, :presence => true
 
   has_one :address, :as => :addressable
+  has_one :business
 
   def name
     first_name + " " + last_name

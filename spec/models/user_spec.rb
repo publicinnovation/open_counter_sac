@@ -15,6 +15,7 @@ describe User do
 
   context 'associations' do
     it {should have_one :address}
+    it {should have_one :business}
   end
 
   context 'name' do
